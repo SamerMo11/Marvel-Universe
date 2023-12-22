@@ -12,6 +12,8 @@
 .body{
     min-height: 100vh;
     background: #202020;
+    cursor: url(cursor.png), auto;
+
 }
 .hr{
     color: var(--main-color) ;
@@ -822,6 +824,135 @@ padding: 5px 0;
 .games-sec .games .game:hover .name{
     color: var(--main-color);
 }
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.media{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* background: var(--second-color); */
+    
+}
+
+
+.media #main-img{
+    width: 50%;
+    max-height: 400px;
+    border-radius: 10px;
+    display: block;
+}
+.media #main-vid{
+    width: 50%;
+    max-height: 400px;
+    border-radius: 10px;
+    display: none;
+}
+.media-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+/* .media-content .videos{
+    width: 100%;
+} */
+.media .title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background: var(--fourth-color);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 50%;
+    height: 80px;
+    margin-top: 20px;
+}
+.media .title p{
+    text-decoration: none;
+    /* padding: 10px 5px; */
+    font-size: 20px;
+    color: var(--first-color);
+    transition: .5s;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .media .title p:hover{
+    background: var(--first-color);
+    color: var(--second-color);
+} */
+.media-content{
+    background: var(--second-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 105px;
+}
+.media-content .images{
+overflow-x: scroll;
+overflow-y: hidden;
+/* width: 100%; */
+}
+.media-content .screens{
+overflow-x: scroll;
+overflow-y: hidden;
+}
+.media-content .gaming{
+overflow-x: scroll;
+overflow-y: hidden;
+}
+.media-content .gaming img{
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+}
+
+
+.media .title hr{
+width: 100%;
+}
+
+.media-content .images{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content:flex-start;
+    align-items: center;
+}
+.media-content .screens{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.media-content .screens img{
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+}
+.media-content .gaming{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.media-content .images img{
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+}
 
 
 
@@ -837,8 +968,9 @@ padding: 5px 0;
 
 
 
-
-
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
 /* ---------------------------------------------- */
 
 /* ---------------------------------------------- */
@@ -1653,12 +1785,18 @@ padding: 5px 0;
     width: 30%;
     filter: drop-shadow(0px 0px 5px #fff);
 }
+.foot .img1 img{
+    width: 100%;
+}
 .foot .img2{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 30%;
     filter: drop-shadow(0px 0px 5px #fff);
+}
+.foot .img2 img{
+    width: 100%;
 }
 
 
@@ -1795,6 +1933,12 @@ padding: 5px 0;
     .games-sec .games .game{
         width: 100%;
     }
+    .media #main-img {
+        width: 100%;
+    }
+    .media-content {
+        width: 95%;
+    }
     .about{
         flex-direction: column;
         margin: 50px auto;
@@ -1852,6 +1996,8 @@ padding: 5px 0;
     }
     .foot .img1{
         height: 70%;
+        position: relative;
+        right: 35%;
     }
     .foot .img1 img{
         width: 100%;
@@ -1859,13 +2005,22 @@ padding: 5px 0;
     }
     .foot .img2{
         height: 70%;
+        position: relative;
+        left: 35%;
     }
     .foot .img2 img{
         width: 100%;
         align-self: flex-end;
     }
+    .foot{
+        flex-direction: column;
+        height: 100vh;
+    }
     .foot .links{
         width: 100%;
+        justify-content: center;
+        /* position: relative; */
+        /* left: 10%; */
     }
     .foot .links .all-links .links1 #link1{
         font-size: 20px;
