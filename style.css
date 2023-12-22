@@ -838,6 +838,7 @@ padding: 5px 0;
 
 
 
+
 /* ---------------------------------------------- */
 
 /* ---------------------------------------------- */
@@ -1228,6 +1229,464 @@ padding: 5px 0;
     color: var(--main-color);
 
 }
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+.foot{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.foot .links{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.foot .links img{
+    width:40%;
+}
+.foot .links .all-links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.foot .links .all-links .links1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: fit-content;
+}
+.foot .links .all-links .links1 .main-links1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+.foot .links .all-links .links1 .main-links1 a{
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10%;
+    transition: 0.5s;
+    background: #202020;
+    z-index: 1232;
+}
+
+.foot .links .all-links .links1 .main-links1 a::before{
+    content: '';
+    background: #c6a972;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 2px;
+    /* transform: rotate(0deg); */
+    transition: 0.5s;
+    z-index: -1;
+}
+.foot .links .all-links .links1 .main-links1 a:hover::before{
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    /* transform: rotate(45deg);*/
+}
+.foot .links .all-links .links1 .main-links1 a::after{
+    content: '';
+    background: #c6a972;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    height: 50%;
+    width: 2px;
+    /* transform: rotate(0deg); */
+    transition: 0.5s;
+    z-index: -1;
+}
+.foot .links .all-links .links1 .main-links1 a:hover::after{
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 50%;
+    /* transform: rotate(45deg);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot .links .all-links .links1 #link1{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.5s;
+    background: #202020;
+    padding: 5px;
+}
+.foot .links .all-links .links1 #link1::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    top: -50%;
+    width: 2px;
+    height: 0%;
+    background: var(--main-color);
+    transform: rotate(45deg);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.foot .links .all-links .links1 #link1:hover::before{
+    height: 200%;
+}
+.foot .links .all-links .links1 #link1::after{
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -50%;
+    top: -50%;
+    width: 2px;
+    height: 0%;
+    background: var(--main-color);
+    transform: rotate(-45deg);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.foot .links .all-links .links1 #link1:hover::after{
+    height: 200%;
+}
+.foot .links .all-links .links2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: fit-content;
+}
+.foot .links .all-links .links2 .main-links2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+.foot .links .all-links .links2 #link2{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    background: #202020;
+    padding: 5px;
+}
+
+.foot .links .all-links .links2 #link2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    top: -50%;
+    width: 2px;
+    height: 0%;
+    background: var(--main-color);
+    transform: rotate(45deg);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.foot .links .all-links .links2 #link2:hover::before{
+    height: 200%;
+}
+.foot .links .all-links .links2 #link2::after{
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -50%;
+    top: -50%;
+    width: 2px;
+    height: 0%;
+    background: var(--main-color);
+    transform: rotate(-45deg);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.foot .links .all-links .links2 #link2:hover::after{
+    height: 200%;
+}
+
+.foot .links .all-links .links2 .main-links2 a{
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10%;
+    transition: 0.5s;
+    background: #202020;
+    z-index: 1232;
+}
+
+.foot .links .all-links .links2 .main-links2 a::before{
+    content: '';
+    background: #c6a972;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 2px;
+    /* transform: rotate(0deg); */
+    transition: 0.5s;
+    z-index: -1;
+}
+.foot .links .all-links .links2 .main-links2 a:hover::before{
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    /* transform: rotate(45deg);*/
+}
+.foot .links .all-links .links2 .main-links2 a::after{
+    content: '';
+    background: #c6a972;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    height: 50%;
+    width: 2px;
+    /* transform: rotate(0deg); */
+    transition: 0.5s;
+    z-index: -1;
+}
+.foot .links .all-links .links2 .main-links2 a:hover::after{
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 50%;
+    /* transform: rotate(45deg);*/
+}
+
+
+
+.foot .links .all-links .links3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.foot .links .all-links .links3 .main-links3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 55%;
+}
+.foot .links .all-links .links3 #link3{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    background: #202020;
+    padding: 5px;
+}
+
+.foot .links .all-links .links3 #link3::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    top: -50%;
+    width: 2px;
+    height: 0%;
+    background: var(--main-color);
+    transform: rotate(45deg);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.foot .links .all-links .links3 #link3:hover::before{
+    height: 200%;
+}
+.foot .links .all-links .links3 #link3::after{
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: -50%;
+    top: -50%;
+    width: 2px;
+    height: 0%;
+    background: var(--main-color);
+    transform: rotate(-45deg);
+    z-index: -1;
+    transition: 0.5s;
+
+}
+.foot .links .all-links .links3 #link3:hover::after{
+    height: 200%;
+}
+
+
+.foot .links .all-links .links3 .main-links3 a{
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10%;
+    transition: 0.5s;
+    background: #202020;
+    z-index: 1232;
+}
+
+.foot .links .all-links .links3 .main-links3 a::before{
+    content: '';
+    background: #c6a972;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 2px;
+    /* transform: rotate(0deg); */
+    transition: 0.5s;
+    z-index: -1;
+}
+.foot .links .all-links .links3 .main-links3 a:hover::before{
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    /* transform: rotate(45deg);*/
+}
+.foot .links .all-links .links3 .main-links3 a::after{
+    content: '';
+    background: #c6a972;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    height: 50%;
+    width: 2px;
+    /* transform: rotate(0deg); */
+    transition: 0.5s;
+    z-index: -1;
+}
+.foot .links .all-links .links3 .main-links3 a:hover::after{
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 50%;
+    /* transform: rotate(45deg);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot .img1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+.foot .img2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+
+
+
+
+.foot .links p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.foot .links p span{
+    color: #c6a972 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---------------------------------------- */
 /* ----------------RESPONSIVE----------------- */
@@ -1390,6 +1849,32 @@ padding: 5px 0;
     }
     .movie-btn a {
         width: 220px;
+    }
+    .foot .img1{
+        height: 70%;
+    }
+    .foot .img1 img{
+        width: 100%;
+        align-self: flex-start;
+    }
+    .foot .img2{
+        height: 70%;
+    }
+    .foot .img2 img{
+        width: 100%;
+        align-self: flex-end;
+    }
+    .foot .links{
+        width: 100%;
+    }
+    .foot .links .all-links .links1 #link1{
+        font-size: 20px;
+    }
+    .foot .links .all-links .links2 #link2{
+        font-size: 20px;
+    }
+    .foot .links .all-links .links3 #link3{
+        font-size: 20px;
     }
 }
 
