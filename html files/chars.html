@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover Marvel's greatest heroes and villains! Get detailed profiles, origins, and appearances of your favorite Marvel characters.">
+    <meta name="author" content="Samer Mohamed">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../bootstrap.css"> -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css files/chars.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Beiruti:wght@200..900&family=Gulzar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../main/icon.png">
+
+
+    <title>Charachters</title>
+</head>
+<body>
+    
+
+    <div id="navbar"></div>
+
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="hero">
+        <span></span>
+        <p>marvel characters</p>
+    </div>
+
+
+
+
+
+    <div class="all">
+        <div class="search reveal">
+            <input type="text" id="searchInput" placeholder="Enter character name">
+            <button id="searchButton">
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+            </button>
+        </div>
+
+
+
+
+        <div class="content">
+            <div class="scroll">
+                <i class="fa-solid fa-chevron-up arrows next" style="--color: #5a00d7"></i>
+                <p>scroll</p>
+                <i class="fa-solid fa-chevron-down arrows prev" style="--color: #5a00d7"></i>
+            </div>
+
+
+            <div class="chars">
+        
+        
+            </div>
+
+
+            <div class="card" >
+                <div class="info" style="--color: #5a00d7">
+                    <p class="card-title">thanos</p>
+                <span class="span"></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam deleniti atque voluptate tempora, corporis fugit vero quia fuga consequuntur.</p>
+                    <div class="actor">
+                    <img class="castImg" src="../actors/1.jpg" alt="actorimage" loading="lazy">
+                    <span class="castName">josh brolin</span>
+                    </div>                
+                <!-- <span class="span"></span> -->
+
+                    <p class="rel">related movies</p>
+                    <div class="movies">
+                        <img loading="lazy" src="../movies/6.jpg" alt="img">
+                        <img loading="lazy" src="../movies/10.jpg" alt="img">
+                        <img loading="lazy" src="../movies/11.jpg" alt="img">
+                        <img loading="lazy" src="../movies/19.jpg" alt="img">
+                        <img loading="lazy" src="../movies/22.jpg" alt="img">
+                    </div>
+                </div>
+                <img loading="lazy" src="../chars/chars/1.png" alt="main img" class="main">
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <div id="footer"></div>
+
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+
+
+
+<script src="../js files/chars.js"></script>
+<script src="../main.js"></script>
+
+</body>
+</html>

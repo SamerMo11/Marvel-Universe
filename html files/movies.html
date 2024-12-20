@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore Marvel's cinematic universe! Discover information about past, present, and upcoming Marvel movies, including trailers, cast, and exclusive insights.">
+    <meta name="author" content="Samer Mohamed">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Beiruti:wght@200..900&family=Gulzar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../main/icon.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css files/movies.css">
+    <title>Movies</title>
+</head>
+<body>
+    
+
+    <div id="navbar"></div>
+
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+
+
+
+
+    <div class="hero">
+        <span></span>
+        <p>marvel movies</p>
+    </div>
+    <div class="all">
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="search" placeholder="Search">
+        </div>
+        <div class="content" id="movies"></div>
+
+        <div id="card-details" class="card-details ">
+            <div class="detail-img"> <img id="detail-img" src="" alt="image" loading="lazy"> </div>
+            <div id="detail-info">
+                <p id="detail-name"></p>
+                <p id="detail-description"></p>
+                <p id="detail-date"></p>
+                <p id="detail-rate"></p>
+                <button id="detail-button" onclick="hideDetails()">x</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="footer"></div>
+
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+
+
+
+    <script src="../js files/movies.js"></script>
+    <script src="../main.js"></script>
+</body>
+</html>

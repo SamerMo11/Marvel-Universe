@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Stay updated with the latest Marvel news, including movie announcements, comic releases, and upcoming series. Your ultimate source for all things Marvel!">
+    <meta name="author" content="Samer Mohamed">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css files/news.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Beiruti:wght@200..900&family=Gulzar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../main/icon.png">
+    <title>Marvel News</title>
+</head>
+<body>
+
+
+    <div id="navbar"></div>
+
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+
+
+
+
+
+
+
+<div class="hero">
+    <span></span>
+    <p>marvel news</p>
+</div>
+    
+<div class="content" ></div>
+
+
+<script>
+    const loadLightMode = () => {
+      const lightMode = localStorage.getItem('lightMode');
+      if (lightMode === 'enabled') {
+        document.body.classList.add('light-mode');
+      }
+    };
+
+    // تحميل حالة الـ Dark Mode عند فتح الصفحة
+    window.onload = () => {
+      loadLightMode();
+    };
+  </script>
+
+
+
+
+
+
+<div id="footer"></div>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js files/news.js"></script>
+    <script src="../main.js"></script>
+</body>
+</html>

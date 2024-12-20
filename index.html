@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Marvel, Universe, Marvel Universe">
+    <meta name="description" content="Welcome to the ultimate Marvel fan site! Explore the latest news, movies, comics, series, games, and characters from the Marvel universe. Stay updated and dive into the world of superheroes!">
+    <meta name="author" content="Samer Mohamed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="main/icon.png">
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css files/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+      <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Beiruti:wght@200..900&family=Gulzar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Marvel Universe</title>
+</head>
+
+<body class="body">
+    <header>
+        <div class="upper">
+            <div class="forms">
+                <a href="#">log in</a>
+                <span></span>
+                <a href="#">join</a>
+            </div>
+            <div class="logo">
+                <img loading="lazy" src="main/mlogo.png" alt="image">
+            </div>
+            <div class="mood">
+            <p>theme: </p>
+
+            <i class="fa-regular fa-sun" id="lightModeToggle"></i>
+            </div>
+        </div>
+            <div class="links">
+                <ul >
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="html files/news.html">news </a></li>
+                    <li><a href="html files/comics.html">Comics</a></li>
+                    <li><a href="html files/chars.html">Characters</a></li>
+                    <li><a href="html files/movies.html">Movies </a></li>
+                    <li><a href="html files/tv shows.html">TV Shows </a></li>
+                    <li><a href="html files/games.html">Games</a></li>
+                    <!-- <li><a href="html files/gems.html">infinity gems</a></li> -->
+                    </ul>
+            </div>
+        <div class="toggle" onclick="togglemenu();"></div>
+</header>
+
+<div class="hero" id="home">
+    <span></span>
+    <div class="des">
+        <p class="title">welcome to marvel universe</p>
+        <p>lets take a journey into the cosmic depths of the mighty marvel cinematic universe</p>
+        <a href="#"><i class="fa-regular fa-chevrons-down"></i></a>
+    </div>
+</div>
+
+
+
+<a href="#home">
+    <svg xmlns="http://www.w3.org/2000/svg" id="arrow" class="arrow" viewBox="0 0 16 16">
+        <path
+            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </svg>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------- -->
+<!-- <div class="slider" style="
+--width: 50px;
+--height: 10vh;
+--quantity: 10;
+">
+<div class="list">
+    <div class="item" style="--position: 1"><img src="main/1.png" alt=""></div>
+    <div class="item" style="--position: 2"><img src="main/2.png" alt=""></div>
+    <div class="item" style="--position: 3"><img src="main/3.png" alt=""></div>
+    <div class="item" style="--position: 4"><img src="main/4.png" alt=""></div>
+    <div class="item" style="--position: 5"><img src="main/5.png" alt=""></div>
+    <div class="item" style="--position: 6"><img src="main/6.png" alt=""></div>
+    <div class="item" style="--position: 7"><img src="main/7.png" alt=""></div>
+    <div class="item" style="--position: 8"><img src="main/8.png" alt=""></div>
+    <div class="item" style="--position: 9"><img src="main/9.png" alt=""></div>
+    <div class="item" style="--position: 10"><img src="main/10.png" alt=""></div>
+</div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <hr class="hr" id="movies"> -->
+    <!-- ----------MOVIES---------------------- -->
+   
+    <!-- -------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- <div class="media " id="gallery">
+        <a href="#gallery" class=" btn reveal">gallery
+            <span></span><span></span><span></span><span></span>
+        </a>
+        
+        <div class="gallery reveal">
+            
+            <img loading="lazy" id="main-img" class="reveal" src="gallery/1.jpg" name="main" alt="image">
+            <div class="images" id="images">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/1.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/2.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/3.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/4.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/5.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/6.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/7.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/8.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/9.jpg" alt="image">
+            <img loading="lazy" onclick="main.src = this.src" src="gallery/10.jpg" alt="image">
+            </div>
+
+
+          </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- -->
+    <div class="banner">
+        <p>a universe of super heroes</p>
+        <p>all our favourite characters and more.</p>
+        <a href="html files/chars.html">view characters</a>
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- -->
+    <div class="about">
+        <div class="content reveal">
+            <!-- <div class="about-img"> -->
+                <!-- </div> -->
+                <div class="about-info">
+                <p>about us
+                    <!-- <span></span><span></span><span></span><span></span> -->
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias enim deserunt, voluptates adipisci
+                    vitae aliquid sed esse perspiciatis mollitia facilis fuga expedita, veritatis consequatur voluptatum
+                    magnam quis voluptatem inventore possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quo ullam est sit fugiat, asperiores placeat corrupti eveniet amet.
+                </p>
+                <a href="#contact">Contact Us</a>
+            </div>
+
+            <img loading="lazy" src="main/about324.jpg" alt="image">
+
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------- -->
+
+    <!-- ---------------------------------------------------------------------- -->
+    <div class="contact-us">
+        <a href="#contact us" class=" btn reveal">contact us
+            <span></span><span></span><span></span><span></span>
+        </a>
+        <div class="contact reveal">
+            <img loading="lazy" src="main/contact.jpg" alt="image">
+            <div class="form">
+                <!-- <h1>Contact Us</h1> -->
+                <div class="inputBx">
+                    <p>Enter Name</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <p>Enter Email</p>
+                    <input type="text" placeholder="Your E-mail">
+                </div>
+                <div class="inputBx">
+                    <p>Message</p>
+                    <textarea placeholder="Type here..."></textarea>
+                </div>
+                <div class="send" id="send">
+                    <a class="send-btn">Send</a>
+                    <div class="social">
+                        <a target="_blank" href="https://github.com/SamerMo11"><i class="fab fa-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/samer-mohamed-5b2586280"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100083281736623&mibextid=ZbWKwL"><i
+                                class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://wa.me/qr/DSRQF7O6GN4JL1"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <!-- <p class="copy"> CopyWright @ <span>Samer Mohamed</span></p> -->
+            </div>
+        </div>
+    </div>
+
+        <!-- ---------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------- -->
+   
+
+
+    <!-- ---------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------- -->
+
+    <!-- <div class="samer"> -->
+        <div class="foot">
+            <div class="img1 ">
+                <img loading="lazy" src="main/footer1.png">
+            </div>
+            <div class="links">
+                <img loading="lazy" src="main/logo.png" alt="image" class="reveal">
+                <div class="all-links">
+                    <div class="links1 reveal">
+                        <a href="" id="link1">LINKS</a>
+                        <div class="main-links1">
+                            <a href="html files/movies.html">Movies </a>
+                            <a href="html files/tv shows.html">TV Shows </a>
+                            <a href="html files/comics.html">Comics</a>
+                            <a href="html files/chars.html">Characters</a>
+                            <!-- <a href="html files/games.html">Games</a> -->
+                        </div>
+                    </div>
+                    <div class="links2 reveal">
+                        <a href="" id="link2">Contact</a>
+                        <div class="main-links2">
+                            <a href="https://www.linkedin.com/in/samer-mohamed-5b2586280" target="_blank" id="lol">LinkedIn</a>
+                            <a href="https://github.com/SamerMo11" target="_blank" id="lol">GitHub</a>
+                            <a href="https://www.facebook.com/profile.php?id=100083281736623&mibextid=ZbWKwL" target="_blank" id="lol">Facebook</a>
+                            <a href="https://wa.me/qr/DSRQF7O6GN4JL1" target="_blank" id="lol">WhatsApp</a>
+                            </div>
+    
+                    </div>
+                    <div class="links3 reveal">
+                        <a href="" id="link3">Support</a>
+                        <div class="main-links3">
+                            <a href="#" id="lol">Blog</a>
+                            <a href="#" id="lol">Help</a>
+                            <a href="#" id="lol">FAQ</a>
+                            </div>
+    
+                    </div>
+                </div>
+                <div class="mini-game">
+
+                    <img loading="lazy" class="thanos" src="main/toy1.png" alt="image">
+                    <img loading="lazy" class="hero1 heros" src="main/toy2.png" alt="image">
+                
+                </div>
+            </div>
+    
+    
+            <div class="img2 ">
+                <img loading="lazy" src="main/footer2.png">
+            </div>
+        </div>
+    <!-- </div> -->
+
+
+
+
+
+    <script src="main.js"></script>
+    <!-- <script src="bootstrap.js"></script> -->
+</body>
+</html>

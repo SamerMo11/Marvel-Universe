@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dive into the world of Marvel comics! Explore iconic storylines, characters, and new releases from the Marvel universe, all in one place.">
+    <meta name="author" content="Samer Mohamed">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../bootstrap.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Beiruti:wght@200..900&family=Gulzar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../main/icon.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css files/comics.css">
+
+    <title>Comics</title>
+</head>
+<body>
+
+
+    <div id="navbar"></div>
+
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <div class="hero" >
+        <span></span>
+        <p>marvel comics</p>
+        <!-- <div class="hero1"></div> -->
+        <!-- <div class="hero2"></div> -->
+    </div>
+
+<div class="all">
+
+    
+        <div class="search reveal">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="search" placeholder="Search" >
+        </div>
+
+
+    <div class="content" id="comics">
+
+    </div>
+
+
+    <div id="card-details" class="card-details ">
+        <div class="detail-img"> <img id="detail-img" class="card-img" src="" alt="image" loading="lazy"> </div>
+        <div id="detail-info">
+            <p id="detail-name" class="card-title"></p>
+            <p id="detail-description"></p>
+            <p id="detail-date"></p>
+            <button id="detail-button" onclick="hideDetails()">x</button>
+        </div>
+      </div>
+
+    <button class="btn" id="load-more">Load More
+        <span></span><span></span><span></span><span></span>
+    </button>
+    </div>
+
+
+
+    <div id="footer"></div>
+
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+    </script>
+
+
+
+    <script src="../js files/comics.js"></script>
+    <script src="../main.js"></script>
+</body>
+</html>
