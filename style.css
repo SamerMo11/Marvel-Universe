@@ -28,6 +28,12 @@
     --bf-color: #e2e4e7;
     --inputs-color: #c6a97223;
 } */
+ header{
+    animation-name: slidetop;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+ }
  header .upper .mood{
     display: flex;
     justify-content: center;
@@ -580,6 +586,7 @@ header .links ul li:hover a::before{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    background-color: var(--fifth-color);
 
 }
 .foot .links{
@@ -669,16 +676,16 @@ header .links ul li:hover a::before{
     
 }
 
-.foot .links .all-links .links1 #link1{
+.foot .links .all-links .main-link{
     position: relative;
     text-decoration: none;
     color: var(--fourth-color);
     font-size: 30px;
     transition: 0.5s;
-    background: var(--second-color);
+    background: var(--fifth-color);
     padding: 5px;
 }
-.foot .links .all-links .links1 #link1::before{
+.foot .links .all-links .main-link::before{
     content: '';
     position: absolute;
     left: 50%;
@@ -692,10 +699,10 @@ header .links ul li:hover a::before{
     transition: 0.5s;
 
 }
-.foot .links .all-links .links1 #link1:hover::before{
+.foot .links .all-links .main-link:hover::before{
     height: 200%;
 }
-.foot .links .all-links .links1 #link1::after{
+.foot .links .all-links .main-link::after{
     content: '';
     position: absolute;
     right: 50%;
@@ -709,10 +716,10 @@ header .links ul li:hover a::before{
     transition: 0.5s;
 
 }
-.foot .links .all-links .links1 #link1:hover::after{
+.foot .links .all-links .main-link:hover::after{
     height: 200%;
 }
-.foot .links .all-links .links2{
+ .foot .links .all-links .links2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -727,13 +734,16 @@ header .links ul li:hover a::before{
     flex-direction: column;
     height: fit-content;
 }
+/*
 .foot .links .all-links .links2 #link2{
     position: relative;
     text-decoration: none;
     color: var(--fourth-color);
     font-size: 30px;
-    background: var(--second-color);
+    background: var(--fifth-color);
     padding: 5px;
+
+
 }
 
 .foot .links .all-links .links2 #link2::before{
@@ -769,7 +779,7 @@ header .links ul li:hover a::before{
 }
 .foot .links .all-links .links2 #link2:hover::after{
     height: 200%;
-}
+} */
 
 .foot .links .all-links .links2 .main-links2 a{
     position: relative;
@@ -840,16 +850,16 @@ header .links ul li:hover a::before{
     flex-direction: column;
     height: 55%;
 }
-.foot .links .all-links .links3 #link3{
+/* .foot .links .all-links .links3 #link3{
     position: relative;
     text-decoration: none;
     color: var(--fourth-color);
     font-size: 30px;
-    background: var(--second-color);
+    background: var(--fifth-color);
     padding: 5px;
-}
+} */
 
-.foot .links .all-links .links3 #link3::before{
+/* .foot .links .all-links .links3 #link3::before{
     content: '';
     position: absolute;
     left: 50%;
@@ -882,7 +892,7 @@ header .links ul li:hover a::before{
 }
 .foot .links .all-links .links3 #link3:hover::after{
     height: 200%;
-}
+} */
 
 .foot .links .all-links .links3 .main-links3 a{
     position: relative;
