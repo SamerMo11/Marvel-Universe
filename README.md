@@ -1,7 +1,6 @@
 # Marvel-Universe Website! 🎉💎
 <p align="left">
-An NFTs e-commerce platform with a fully responsive design and multiple features to offer a seamless and complete shopping experience!
-Whether you're an NFT collector or investor, this is the perfect platform for you.
+Marvel-Universe platform consists of 7 pages with a fully responsive design and multiple features to offer a seamless and complete experience! 
 </p>
 
 [Website Live Preview](https://samermo11.github.io/Marvel-Universe/)  
@@ -37,6 +36,4 @@ I hope you enjoy exploring the site! 🌐
   
 - **JavaScript.**
 
-<p align="left">
-🚀 Join us now and start your journey in the NFT world through this carefully built platform designed to deliver the best user experience.
-</p>
+
