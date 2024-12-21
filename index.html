@@ -26,34 +26,28 @@
 <body class="body">
     <header>
         <div class="upper">
-            <div class="forms">
-                <a href="#" id="auth-login">log in</a>
-                <span></span>
-                <a href="#" id="auth-join">join</a>
-            </div>
-            <div class="logo">
+            <a href="index.html" class="logo">
                 <img loading="lazy" src="main/mlogo.png" alt="image">
-            </div>
-            <div class="mood">
-            <p>theme: </p>
-
-            <i class="fa-regular fa-sun" id="lightModeToggle"></i>
-            <i class="fa-solid fa-language" id="language-switch"></i>
-            </div>
+            </a>
+                <i class="fa-regular fa-sun lightModeToggle" ></i>
+            
         </div>
             <div class="links">
                 <ul >
-                    <li><a id="nav-home" href="index.html">home</a></li>
                     <li><a id="nav-news" href="html files/news.html">news </a></li>
                     <li><a id="nav-comics" href="html files/comics.html">Comics</a></li>
                     <li><a id="nav-chars" href="html files/chars.html">Characters</a></li>
                     <li><a id="nav-movies" href="html files/movies.html">Movies </a></li>
                     <li><a id="nav-tvshows" href="html files/tv shows.html">TV Shows </a></li>
                     <li><a id="nav-games" href="html files/games.html">Games</a></li>
-                    <!-- <li><a href="html files/gems.html">infinity gems</a></li> -->
                     </ul>
             </div>
-        <div class="toggle" onclick="togglemenu();"></div>
+            <div class="mood">
+                <i class="fa-regular fa-sun lightModeToggle" ></i>
+                <div class="tab">
+                    <span></span><span></span><span></span>
+                </div>
+                </div>
 </header>
 
 <div class="hero" id="home">
@@ -61,18 +55,18 @@
     <div class="des">
         <p class="title" id="welcome-title">welcome to marvel universe</p>
         <p id="welcome-subtitle">lets take a journey into the cosmic depths of the mighty marvel cinematic universe</p>
-        <a href="#"><i class="fa-regular fa-chevrons-down"></i></a>
+        <a href="#about"><i class="fa-regular fa-chevrons-down"></i></a>
     </div>
 </div>
 
 
 
-<a href="#home">
+<!-- <a href="#home">
     <svg xmlns="http://www.w3.org/2000/svg" id="arrow" class="arrow" viewBox="0 0 16 16">
         <path
             d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
     </svg>
-</a>
+</a> -->
 
 
 
@@ -157,19 +151,19 @@
 
 
 
-
-
-
-    <!-- -------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------- -->
     <!-- -------------------------------------------------------------- -->
     <div class="banner">
         <p id="welcome-description">a universe of super heroes</p>
         <p id="welcome-description">all our favourite characters and more.</p>
         <a id="view-characters-btn" href="html files/chars.html">view characters</a>
     </div>
+
+
+
     <!-- -------------------------------------------------------------- -->
     <!-- -------------------------------------------------------------- -->
-    <div class="about">
+    <div class="about" id="about">
                 <div class="about-info">
                 <p id="about-us-btn">about us</p>
                 <p id="about-us-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias enim deserunt, voluptates adipisci
@@ -198,16 +192,16 @@
 
         <!-- </div> -->
     </div>
-    <!-- ---------------------------------------------------------------------- -->
+
 
     <!-- ---------------------------------------------------------------------- -->
-    <!-- <div class="contact-us">
-        <a href="#contact us" class=" btn reveal">contact us
-            <span></span><span></span><span></span><span></span>
-        </a>
-        <div class="contact reveal">
-            <img loading="lazy" src="main/contact.jpg" alt="image">
+<span class="line"></span>
+    <!-- ---------------------------------------------------------------------- -->
+    <div class="contact-us">
+        
+        <!-- <div class="contact reveal"> -->
             <div class="form">
+                <p>contact us</p>
                 <div class="inputBx">
                     <p>Enter Name</p>
                     <input type="text" placeholder="Full Name">
@@ -233,12 +227,22 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div> -->
+            <img loading="lazy" src="main/contact.jpg" alt="image">
+
+        <!-- </div> -->
+    </div>
 
 
 
 
+    <!-- ---------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------- -->
+    <div class="banner banner2">
+        <p id="welcome-description">a universe of super heroes</p>
+        <p id="welcome-description">all our favourite characters and more.</p>
+        <a id="view-characters-btn" href="html files/chars.html">view characters</a>
+    </div>
     <!-- ---------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------- -->
     <!-- ---------------------------------------------------------------------- -->
@@ -248,7 +252,6 @@
                 <img loading="lazy" src="main/footer1.png">
             </div>
             <div class="links">
-                <img loading="lazy" src="main/logo.png" alt="image" class="reveal">
                 <div class="all-links">
                     <div class="links1 reveal">
                         <a href="" id="link-links" class="main-link">LINKS</a>

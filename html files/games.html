@@ -26,15 +26,31 @@
 <body>
 
 
-    <div id="navbar"></div>
-
-    <script>
-      fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('navbar').innerHTML = data;
-        });
-    </script>
+    <header>
+        <div class="upper">
+            <a href="../index.html" class="logo">
+                <img loading="lazy" src="../main/mlogo.png" alt="image">
+            </a>
+                <i class="fa-regular fa-sun lightModeToggle" ></i>
+            
+        </div>
+            <div class="links">
+                <ul >
+                    <li><a id="nav-news" href="news.html">news </a></li>
+                    <li><a id="nav-comics" href="comics.html">Comics</a></li>
+                    <li><a id="nav-chars" href="chars.html">Characters</a></li>
+                    <li><a id="nav-movies" href="movies.html">Movies </a></li>
+                    <li><a id="nav-tvshows" href="tv shows.html">TV Shows </a></li>
+                    <li><a id="nav-games" href="games.html">Games</a></li>
+                    </ul>
+            </div>
+            <div class="mood">
+                <i class="fa-regular fa-sun lightModeToggle" ></i>
+                <div class="tab">
+                    <span></span><span></span><span></span>
+                </div>
+                </div>
+    </header>
 
 
 
@@ -54,54 +70,74 @@
 
 
     <div class="all">
-        <!-- <div class="heading">
-            <a href="#games" class=" btn reveal">games
-                <span></span><span></span><span></span><span></span>
-            </a>
-        
-            <div class="search reveal">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" id="search" placeholder="Search">
-            </div> -->
             <div class="search reveal">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" id="search" placeholder="Search">
             </div>
-        <!-- </div> -->
 
     <div class="content" id="games">
 
-        <!-- <a href="https://www.marvel.com/games/marvels-spider-man-2" class="card">
-            <div class="game reveal">
-            <div class="game-img">
-            <img src="../games/20.jpg" alt="">
-            </div>
-            
-        <p class="name">Marvel's Spider-Man 2</p>
+
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="foot">
+        <div class="img1 ">
+            <img loading="lazy" src="../main/footer1.png">
         </div>
-    </a> -->
-    </div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-    <div id="footer"></div>
-
-    <script>
-      fetch('footer.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('footer').innerHTML = data;
-        });
-    </script>
+        <div class="links">
+            <div class="all-links">
+                <div class="links1 reveal">
+                    <a href="" id="link-links" class="main-link">LINKS</a>
+                    <div class="main-links1">
+                        <a href="movies.html" id="link-movies">Movies </a>
+                        <a href="tv shows.html" id="link-tvshows">TV Shows </a>
+                        <a href="comics.html" id="link-comics">Comics</a>
+                        <a href="chars.html" id="link-characters">Characters</a>
+                    </div>
+                </div>
+                <div class="links2 reveal">
+                    <a href="" id="link-contact" class="main-link">Contact</a>
+                    <div class="main-links2">
+                        <a id="link-linkedin" href="https://www.linkedin.com/in/samer-mohamed-5b2586280" target="_blank" id="lol">LinkedIn</a>
+                        <a id="link-github" href="https://github.com/SamerMo11" target="_blank" id="lol">GitHub</a>
+                        <a id="link-facebook" href="https://www.facebook.com/profile.php?id=100083281736623&mibextid=ZbWKwL" target="_blank" id="lol">Facebook</a>
+                        <a id="link-whatsapp" href="https://wa.me/qr/DSRQF7O6GN4JL1" target="_blank" id="lol">WhatsApp</a>
+                        </div>
+      
+                </div>
+                <div class="links3 reveal">
+                    <a href="" id="link-support" class="main-link">Support</a>
+                    <div class="main-links3">
+                        <a href="#" id="link-blog">Blog</a>
+                        <a href="#" id="link-help">Help</a>
+                        <a href="#" id="link-faq">FAQ</a>
+                        </div>
+      
+                </div>
+            </div>
+            <div class="mini-game">
+      
+                <img loading="lazy" class="thanos" src="../main/toy1.png" alt="image">
+                <img loading="lazy" class="hero1 heros" src="../main/toy2.png" alt="image">
+            
+            </div>
+        </div>
+      
+      
+        <div class="img2 ">
+            <img loading="lazy" src="../main/footer2.png">
+        </div>
+      </div>
 
 
 
