@@ -16,13 +16,13 @@ Whether you're an NFT collector or investor, this is the perfect platform for yo
 
 - **⚡️ Dynamic Element Creation:** Repeated elements are dynamically created using JavaScript, without the need to duplicate HTML code.
 
--**✨ Innovative Pop-Up:** When you click a button, a pop-up appears showcasing additional details about the card in a user-friendly and engaging way.
+- **✨ Innovative Pop-Up:** When you click a button, a pop-up appears showcasing additional details about the card in a user-friendly and engaging way.
 
--**🌙 Dark Mode Support:** Switch seamlessly between light and dark mode, with your preferences saved across all pages.
+- **🌙 Dark Mode Support:** Switch seamlessly between light and dark mode, with your preferences saved across all pages.
 
--**💾 Local Storage Support:** Any changes, like activating dark mode, are automatically saved, ensuring a consistent browsing experience.
+- **💾 Local Storage Support:** Any changes, like activating dark mode, are automatically saved, ensuring a consistent browsing experience.
 
--**🔒 Interactive & User-Friendly UI:** The site is designed for ease of use, bringing everything you need into one place.
+- **🔒 Interactive & User-Friendly UI:** The site is designed for ease of use, bringing everything you need into one place.
 
 I hope you enjoy exploring the site! 🌐
 
