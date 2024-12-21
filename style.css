@@ -1254,92 +1254,6 @@ header .links ul li:hover a::before{
     }
     
 
-    /* header img {
-        width: 30%;
-        margin-left: 0%;
-        left: 0;
-    } */
-    /* header .nav{
-        top: 16%;
-    }
-    header .nav.active{
-        display: flex;
-    }
-    header .nav li {
-        margin: 20px 0;
-    }
-    header .nav li a {
-        margin: 10px 0 ;
-        font-size: 24px;
-    } */
-    /* .toggle{
-        position: relative;
-        left: 35%;
-        width: 40%;
-        height: 40px;
-        background: url(main/open.png) ;
-        filter: drop-shadow(0px 0px 10px var(--main-color));
-        background-position: center;
-        background-size: 40px;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        z-index: 101;
-    }
-    .toggle.active{
-        background: url(main/close.png) ;
-        background-position: center;
-        background-size: 40px;
-        background-repeat: no-repeat;
-    } */
-    /* header .nav {
-        position: fixed;
-        
-        
-        right: 0px;
-        bottom: 0;
-        background: #202020b8;
-        border: 1px solid var(--third-color);
-        width: 200px;
-        height: fit-content;
-        border-radius: 10px;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        z-index: 100;
-    } */
-
-    
-    /* header ul li a::after{
-        content: '';
-        height:3px;
-        width:0px;
-        background-color: var(--third-color);
-        position: absolute;
-        bottom: -10px;
-        left: 0px;
-        transition: .3s ease;
-       
-       }
-       body > header > ul > li:nth-child(1){
-        position: relative;
-        left: 0%;
-    }
-    body > header > ul > li:nth-child(2){
-        position: relative;
-        left: 0%;
-    }
-    body > header > ul > li:nth-child(5){
-        position: relative;
-        right: 0%;
-    }
-    body > header > ul > li:nth-child(6){
-        position: relative;
-        right:  0%;
-    }
-    header ul li{
-        width: 100%;
-    } */
     .btn{
         width: 60%;
         padding: 20px 0px;
@@ -1369,7 +1283,8 @@ header .links ul li:hover a::before{
     flex-direction: column;
     width: 90%;
     height: 90%;
-    top: 50%;
+    height: 85%;
+    top: 55%;
 }
 .detail-img {
     width: clamp(20%, 50%, 50%);
@@ -1409,73 +1324,7 @@ header .links ul li:hover a::before{
 
 
    
-    .about .content{
-        flex-direction: column;
-        margin: 50px auto;
-        height: 100vh;
-        width: 100%;
-        background: var(--fifth-color);
-        border-radius: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .about .content .about-img {
-        width: 100%;
-        margin-left: 0;
-    }
-    .about .content .about-img img{
-        width: 100%;
-    }
-    .about .content .about-info{
-        width: 90%;
-        height: 100%;
-        margin-right: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .contact{
-        padding: 0 0;
-        width: 100%;
-        flex-direction: column;
-    }
-    .contact-us .contact img {
-        width: 100%;
-        margin-left: 0%;
-        margin-bottom: 0%;
-        border-radius: 10px;
-        transition: .5s;
-    }
-    .contact-us .contact .form {
-        width: 90%;
-        margin: 0px;
-    }
-    .about .content-btn{
-        width: 50%;
-    }
-    .about .content-btn::before {
-        right: -15%;
-    }
-    .about .content-btn::after {
-        left: -15%;
-    }
-
-    #gallery-btn::before {
-        right: -15%;
-    }
-    #gallery-btn::after {
-        left: -15%;
-    }
-
-    .about .content-btn a{
-        width: 100%;
-        text-align: center;
-    }
     
-    .contact-us .contact .send .send-btn {
-        margin-bottom: 10%;
-    }
     .foot .img1{
         height: 70%;
         position: relative;
