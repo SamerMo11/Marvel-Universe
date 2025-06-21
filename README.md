@@ -47,3 +47,4 @@ Whether you're into movies, TV shows, characters, or games — this website has 
 | CSS3         | Styling and responsive layout      |
 | JavaScript   | Dynamic behavior and interactivity |
 
+
