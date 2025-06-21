@@ -1,39 +1,49 @@
-# Marvel-Universe Website! 🎉💎
-<p align="left">
-Marvel-Universe platform consists of 7 pages with a fully responsive design and multiple features to offer a seamless and complete experience! 
-</p>
+# 👑 Marvel-Universe Website
 
-[Website Live Preview](https://samermo11.github.io/Marvel-Universe/)  
-
-## 🌟 Website Features :
-
-- **🔍 Smart Search:** Quickly find Movies & Characters & TvShows & Games using advanced search that matches items by name.
-
-- **📱💻 Fully Responsive:** The website is fully responsive and adapts seamlessly to all screen sizes, whether it’s mobile, tablet, laptop, or desktop.
-
-- **🎯 Custom-Built Slider:** The slider is built using JavaScript only, without any external libraries, providing a smooth and flexible experience.
-
-- **⚡️ Dynamic Element Creation:** Repeated elements are dynamically created using JavaScript, without the need to duplicate HTML code.
-
-- **✨ Innovative Pop-Up:** When you click a button, a pop-up appears showcasing additional details about the card in a user-friendly and engaging way.
-
-- **🌙 Dark Mode Support:** Switch seamlessly between light and dark mode, with your preferences saved across all pages.
-
-- **💾 Local Storage Support:** Any changes, like activating dark mode, are automatically saved, ensuring a consistent browsing experience.
-
-- **🔒 Interactive & User-Friendly UI:** The site is designed for ease of use, bringing everything you need into one place.
-
-I hope you enjoy exploring the site! 🌐
-
+A powerful and immersive platform inspired by the **Marvel Universe**, designed to deliver a complete user experience across 7 dynamic pages.  
+Whether you're into movies, TV shows, characters, or games — this website has it all!
 
 ---
 
-## 🌟 Website Used Languages :
+## 🌐 Live Preview
 
-- **HTML5.**
-  
-- **CSS3.**
-  
-- **JavaScript.**
+🚀 [Click here to visit the live site](https://lnkd.in/dWHp_Sg7)
 
+---
+
+## 🌟 Key Features
+
+- 🔍 **Smart Search**  
+  Instantly find Movies, Characters, TV Shows, and Games by name using an advanced, user-friendly search functionality.
+
+- 📱💻 **Fully Responsive Design**  
+  Adapts beautifully to all screen sizes — mobile, tablet, laptop, and desktop.
+
+- 🎯 **Custom JavaScript Slider**  
+  Built from scratch without any external libraries for a smooth and optimized user experience.
+
+- ⚡️ **Dynamic Element Creation**  
+  All repeating content is generated dynamically via JavaScript — no hardcoded HTML duplication.
+
+- ✨ **Innovative Pop-Up System**  
+  Clicking on a card button triggers a stylish popup with more details about the selected item.
+
+- 🌙 **Dark & Light Mode**  
+  Toggle between light and dark themes, with your choice remembered across all pages.
+
+- 💾 **Local Storage Support**  
+  Theme preferences and user actions are stored for a consistent experience across sessions.
+
+- 🔒 **Interactive & User-Friendly UI**  
+  The entire website is designed for simplicity, performance, and engagement.
+
+---
+
+## 🛠️ Technologies Used
+
+| Language     | Purpose                            |
+|--------------|------------------------------------|
+| HTML5        | Markup structure                   |
+| CSS3         | Styling and responsive layout      |
+| JavaScript   | Dynamic behavior and interactivity |
 
